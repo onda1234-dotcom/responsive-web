@@ -1,0 +1,156 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+ 
+
+  nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  }
+  
+  .logo{
+  font-size: 1.5rem;
+  color:pink;
+  }
+  
+  .navbar_links ul{
+  margin:0;
+  padding:0;
+  display:flex;
+  margin-right: 6em;
+  }
+  
+  .navbar_links li{
+  list-style: none;
+  }
+  
+  .navbar_links li a{
+  text-decoration:none;
+  padding:1rem;
+  display: block;
+  color:black;
+  font-size: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .navbar_links li a:hover{
+    color: rgb(222, 104, 104);
+  }
+  
+
+
+
+
+.content{
+    background: rgb(87, 85, 85);
+    padding:1em;
+}
+
+.img{
+    align-self: flex-start;
+    width:30%;
+}
+
+.content h1{
+   font-size: 1em;
+   color:white;
+}
+
+.text{
+    margin-left:10em;
+}
+
+span{
+    font-size: 0.9rem;
+}
+
+.text h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text p{
+    font-size: 1rem;
+}
+
+.img_one{
+    align-self: flex-start;
+    width:50%;
+}
+
+
+.footer{
+    background: rgb(87, 85, 85);
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar_link ul{
+    margin:0;
+    padding:0;
+    display:flex;
+   
+    }
+    
+    .navbar_link li{
+    list-style: none;
+    }
+    
+    .navbar_link li a{
+    padding:1em;
+    text-decoration:none;
+    display: block;
+    color:black;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .navbar_link li a:hover{
+      color: rgb(222, 104, 104);
+    }
+
+
+
+    @media(max-width:700px){
+        .text{
+            margin-left:1em;
+        }
+
+        .img_one{
+           width:100%; 
+        }
+
+        .img{
+            width:70%;
+        }
+
+
+        .navbar_links ul{
+          display: block;
+        }
+
+        .navbar_links li a{
+            padding:0.5em;
+        }
+
+
+        
+        .navbar_link ul{
+         display: block;
+      
+   
+    }
+
+    .navbar_link li a{
+        padding:0.2em;
+        font-size: 0.8rem;
+  
+   }
+    }
+
